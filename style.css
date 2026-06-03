@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    background: #fff3f6;
+    color: #6b4f57;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+    background: #ffffff;
+    border-bottom: 2px solid #e8a3b5;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #8c6f76;
+    padding: 8px 12px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 90px 20px;
+    background: #ffffff;
+
+    position: relative;
+}
+
+.hero::after {
+    content: "💅 Beauty & Nail Studio 💅";
+    position: absolute;
+    bottom: 20px;
+    font-size: 1rem;
+    color: #e8a3b5;
+    opacity: 0.8;
+}
+
+p {
+    text-align: center;
+    max-width: 650px;
+    margin: 12px auto;
+    padding: 10px;
+    color: #6b4f57;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    padding: 40px 20px;
+}
+
+.card {
+    background: #ffffff;
+    border: 2px solid #e8a3b5;
+    border-radius: 14px;
+
+    width: 260px;
+    padding: 20px;
+
+    text-align: center;
+    color: #6b4f57;
+}
+
+.button {
+    display: inline-block;
+    background: #e8a3b5;
+    color: #ffffff;
+
+    padding: 12px 20px;
+    border-radius: 14px;
+    border: none;
+
+    cursor: pointer;
+    text-decoration: #6b4f57;
+
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background: #b86b7a;
+    transform: translateY(-2px);
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 40px 20px;
+}
+
+form {
+    background: #ffffff;
+    border: 2px solid #e8a3b5;
+    border-radius: 14px;
+
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input,
+textarea,
+select {
+    padding: 12px;
+}
+
+form .button {
+    align-self: center;
+    width: 100%;
+    text-align: center;
+}
+
+.form-note {
+    text-align: center;
+    font-size: 0.85rem;
+    padding-top: 5px;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+    background: #b86b7a;
+    color: #ffffff;
+    text-align: center;
+}
